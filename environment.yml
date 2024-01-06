@@ -1,0 +1,23 @@
+name: airbnb_price
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - scikit-learn
+  - altair
+  - matplotlib
+  - seaborn
+  - nltk
+  - lightgbm
+  - ipykernel
+  - jupyterlab
+  - notebook
+  - altair
+  - jupyterlab
+  - matplotlib-base
+  - nodejs
+  - widgetsnbextension
+  - ipywidgets
+  - jupyterlab_vim
+  - myst-nb

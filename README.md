@@ -6,6 +6,8 @@ The Airbnb Price Predictor project focuses on predicting the price of Airbnb lis
 
 To enhance data comprehension and interactivity, a Tableau dashboard has been created, providing intuitive visualizations.
 
+The detail report can be found in [here](https://billwan96.github.io/Vancouver_Airbnb_price_predictor/airbnb_price_predictor.html).
+
 ## Project Structure
 - data/: Contains the dataset.
 - report/: Holds files related to using Jupyter Book to build an HTML report.
