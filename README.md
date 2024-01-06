@@ -39,7 +39,7 @@ We acknowledge the [Inside Airbnb](http://insideairbnb.com/get-the-data/) platfo
 
 - Libraries and Frameworks:
     - Python
-    - Pandas, Scikit-learn, LightGBM, Seaborn ,Altair and Matplotlib
+    - Pandas, Scikit-learn, LightGBM, Seaborn, Altair, and Matplotlib
     - Tableau 
 
 ## License
