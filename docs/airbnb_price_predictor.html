@@ -367,17 +367,13 @@ document.write(`
 <li><p>Redundancy in Host Listing Count: A notable correlation exists between ‘host_listing_count’ and ‘host_total_listing_count.’ To enhance model simplicity, retaining only one of these features is suggested.</p></li>
 </ol>
 <p>These insights guide our approach towards refining the dataset for optimal model performance and interpretability.</p>
-<p>In addition, I have used Tableau to create an interactive dashboard.</p>
-<!-- Embed Tableau Visualization -->
-<div class='tableauPlaceholder' id='viz1704512271559' style='position: relative'>
-  <noscript>
-    <a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RR&#47;RRQTYPS4R&#47;1_rss.png' style='border: none' /></a>
-  </noscript>
-  <object class='tableauViz' style='display:none;'>
-    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-    <!-- Other params from the embed code -->
-  </object>
-</div></section>
+<p>In addition, I have used Tableau to create an interactive dashboard which you can also access <a class="reference external" href="https://public.tableau.com/app/profile/bill.wan6088/viz/Dashboard_Vancouver_airbnb/Dashboard1?publish=yes">here</a>.</p>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<div class="output text_html"><div class='tableauPlaceholder' id='viz1704569104740' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dashboard_Vancouver_airbnb&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dashboard_Vancouver_airbnb&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dashboard_Vancouver_airbnb&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1704569104740');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1277px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+</div></div>
+</div>
+</section>
 <section id="analysis">
 <h2>Analysis<a class="headerlink" href="#analysis" title="Permalink to this heading">#</a></h2>
 <p>The project evaluates several machine learning models, encompassing Polynomial Ridge, LGBM, and various Random Forest iterations. The pipeline incorporates diverse data processing and engineering techniques:</p>
@@ -390,13 +386,7 @@ document.write(`
 </ol>
 <p>The dataset is partitioned into an 80% training set and a 20% test set. LGBM emerges as the top-performing model, prompting further refinement through hyperparameter tuning. The hyperparameter is optimized using 10-fold cross-validation, with the test score serving as the classification metric.</p>
 <p>Below is the result of the performance of every model.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">scores</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;../result/tables/output.csv&#39;</span><span class="p">)</span>
-<span class="n">glue</span><span class="p">(</span><span class="s2">&quot;model_scores&quot;</span><span class="p">,</span> <span class="n">scores</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
+<div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
 <div class="output text_html"><div>
 <style scoped>
