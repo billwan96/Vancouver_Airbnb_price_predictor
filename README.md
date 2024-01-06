@@ -4,7 +4,7 @@
 
 The Airbnb Price Predictor project focuses on predicting the price of Airbnb listings by leveraging various features. The comprehensive pipeline includes exploratory data analysis (EDA), preprocessing, feature engineering, model construction, feature selection, hyperparameter optimization, and model testing.
 
-To enhance data comprehension and interactivity, a Tableau dashboard has been created, providing intuitive visualizations.
+To enhance data comprehension and interactivity, a [Tableau dashboard](https://public.tableau.com/app/profile/bill.wan6088/viz/Dashboard_Vancouver_airbnb/Dashboard1) has been created, providing intuitive visualizations.
 
 The detail report can be found in [here](https://billwan96.github.io/Vancouver_Airbnb_price_predictor/airbnb_price_predictor.html).
 
